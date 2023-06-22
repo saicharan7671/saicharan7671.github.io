@@ -1,0 +1,212 @@
+body {
+    background-color: lightgrey;
+}
+.main .row{
+   margin-left: 20px;
+   margin-right:20px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.main .row .logo{
+    float: left;
+    font-size: 60px;
+    margin-left: 60px;
+}
+.main .row .search{
+    float: right;
+    margin-right: 10px;
+}
+.main .row .search input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 25px;
+}
+.main .row img {
+    width: 25px;
+    float: right;
+    right: 37px;
+    top: 32px;
+    position: relative;
+   
+}
+.main .row1 .index{
+    background-color: rgb(70, 163, 70);
+    width: 1450px;
+    margin-left: 20px;
+    
+}
+.main .row1 .index{
+    
+    float: left;
+}
+.main .row1 .index ul li{
+    display: inline;
+    margin:55px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: bisque;
+}  
+
+.main .row1 .index li:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+    
+}
+.main .row1 .image {
+    width: 1450px;
+    height: 800px;
+    margin-left: 20px;
+    
+    background-image: url("pics/1.jpg");
+    background-size: cover;
+}
+.main .row1 .image p {
+    font-size: 35px;
+    color: beige;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.row2 .para1, .para2, .para3 {
+
+    display: inline;
+    float: left;
+    margin: 50px;
+    width: 400px;
+}
+.main .row2 .para1{
+    background-color: orange;
+    
+}
+.main .row2 .para2{
+    background-color:aqua ;
+    
+}
+.main .row2 .para3{
+    background-color: crimson;
+    
+}
+.main .row2 .para1 img{
+ width: 120px;
+ margin-top: 50px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.main .row2 .para1 img, h2{
+
+   display: inline;
+   
+}
+.main .row2 .para2 img, h2{
+
+   display: inline;
+   
+}
+.main .row2 .para img, h2{
+
+   display: inline;
+   
+}
+.main .row2 .para1 h2{
+
+    position: relative;
+    bottom: 50px;
+   
+}
+.main .row2 .para2 h2{
+
+    position: relative;
+    bottom: 50px;
+   
+}
+.main .row2 .para3 h2{
+
+    position: relative;
+    bottom: 50px;
+   
+}
+.main .row2 .para1 .img, p{
+   width: 350px;
+   margin-left: 30px;
+   
+    
+}
+.main .row2 .para2 img{
+   
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 10px;
+ margin-right: 10px;
+    
+}
+.main .row2 .para2 .img, p{
+   width: 350px;
+   margin-left: 30px;
+    
+}
+.main .row2 .para3 img{
+    
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main .row2 .para3 .img, p{
+    width: 350px;
+    margin-left: 30px;
+}
+.main .row3 .container .para4, .para5{
+    display: inline;
+    float: left;
+    width: 500px;
+    margin: 20px;
+}
+.main .row3 .container .para4 {
+    margin-left: 60px;
+    float: left;
+    width: 600px;
+}
+.main .row3 .container .para4 p {
+    margin: 1px;
+    float: left;
+    width: 600px;
+}
+.main .row3 .container .para5 {
+    margin-left: 60px;
+    float: left;
+    width: 700px;
+}
+.main .row3 .container .para5 img {
+    float: left;
+    margin: 2px;
+}
+.button .container input{
+    position: relative;
+    width: 175px;
+    height: 50px;
+    left: 100px;
+    bottom: 60px;
+    background-color: rgb(59, 185, 59);
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button .container input:hover{
+color: white;    
+
+}
+
+
+
+
+
+
+.clear{
+    clear: both;
+}

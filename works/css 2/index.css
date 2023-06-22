@@ -1,0 +1,91 @@
+.main{
+    margin-left: 120px;
+    margin-right:120px;
+}
+.main .row .container .logo {
+font-size: 30px;
+float: left;
+}
+.main .row .container .list ul li{
+    position: relative;
+    display: inline;
+    margin: 20px;
+    top: 50px;
+    float: right;
+    font-size: 20px;
+}
+.main .row .container .list li:hover{
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+    
+}
+.main .row1 .container .image img{
+    width: 1300px;
+    height: 500px;
+    float: left;
+}
+.main .row2 .container, .para, para1{
+    display: inline;
+    float: left;
+    margin-top: 20px;
+    width: 1300px;
+}
+.main .row2 .container .para{
+    width:300px;
+    
+}
+.main .row2 .container .para ul li{
+    margin:15px;
+    
+}
+.main .row2 .container .para1{
+    
+    position: relative;
+    left:60px;
+    top:20px;
+    
+}
+.main .row2 .container .para1, .p, .p1{
+    display: inline;
+
+    
+}
+.main .row2 .container .para1 .p1{
+    float: right;
+}
+
+.main .row2 .container .para1 .p2{
+    margin-top: 30px;
+}
+.main .row3 .container .heading, .buttons {
+float: left;
+display: inline;
+
+}
+.main .row3 .container .heading{
+    position: relative;
+    top: 40px;
+
+}
+.main .row3 .container .buttons {
+float: right;
+margin: 50px;
+position: relative;
+right: 400px;
+top: 10px;
+}
+.main .row3 .container .buttons input{
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+
+
+.main, .clear{
+
+    clear: both;
+}

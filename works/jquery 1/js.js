@@ -1,0 +1,3 @@
+function fade(){
+    $("#para").fadeToggle();
+}
